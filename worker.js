@@ -53,7 +53,7 @@ export default {
     };
 
     // 🔑 klucz eventu z ID
-    const eventKey = `event:${id}:${timestamp}:${Math.random()
+    const eventKey = `track:${id}:${timestamp}:${Math.random()
       .toString(36)
       .slice(2)}`;
 
